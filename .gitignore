@@ -1,0 +1,8 @@
+# 1. Ignora tutto ciò che si trova dentro la cartella temp
+temp/*
+# 2. Permetti a Git di entrare nella sottocartella bin
+!temp/bin/
+# 3. Mantieni tracciato il file specifico
+!temp/bin/file.txt
+#Files
+*.log
